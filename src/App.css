@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+body {
+  font-family: 'Kanit', sans-serif !important;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +41,49 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.bg-1 {
+  background-image: url('https://images.unsplash.com/photo-1641261689141-ee46b8a0470c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.todo-box {
+  background-color: #7d51ff9b; 
+  border-radius: 15px;
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  padding: 30px;
+}
+
+.input-todo {
+  width: 100%;
+  max-width: 450px;
+  /* display: block; */
+  margin: auto;
+}
+.todo-listbox {
+  display: block;
+  margin: auto;
+}
+.todo {
+  color: #000000;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #f7f7f7;
+  width: 80%;
+  max-width: 300px;
+}
+
+.box-todo-list{
+  width: 100%;
+  max-width: 334px;
+  margin: auto;
 }
