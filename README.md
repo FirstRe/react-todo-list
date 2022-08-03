@@ -1,4 +1,5 @@
 # Getting Started with Create React App
 
-pnpm i . 
-pnpm dev
+#pnpm i . 
+
+#pnpm dev
