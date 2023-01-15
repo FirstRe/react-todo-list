@@ -12,15 +12,15 @@ function TodoList() {
   const [todoList, setTodoList] = useState(defaultList)
 
   const D = new Date().getDay()
-
+  console.log({ D })
   const mapColors = {
-    1: '#ff51519b',
-    2: '#fffc519b',
-    3: '#ff51cb9b',
-    4: '#88ff519b',
-    5: '#ff97519b',
-    6: '#5177ff9b',
-    7: '#7d51ff9b',
+    0: '#ff51519b',
+    1: '#fffc519b',
+    2: '#ff51cb9b',
+    3: '#88ff519b',
+    4: '#ff97519b',
+    5: '#5177ff9b',
+    6: '#7d51ff9b',
   }
 
   const styleColor = {
